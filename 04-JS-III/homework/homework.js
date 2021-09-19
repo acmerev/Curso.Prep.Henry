@@ -26,13 +26,13 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
- for(let i = 0 ; i<= array.length; i++)
-{
-     array[i] + 1;
-}
-return array;
-}
+let array2 = [];
+  for(let i = 0; i < array.length; i++) {
+    array2[i] = array[i] + 1;
+  }
+  return array2;
 
+}
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
