@@ -135,16 +135,18 @@ const obtenerResto = (x, y) => x%y;
 // }
 const esPar = num => num%2 ==0; 
 
-function esImpar(num) {
+//function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num%2 !== 0)
-  {
-    return true
-  }
-  return false
-}
+  //if(num%2 !== 0)
+  //{
+    //return true
+ // }
+ // return false
+//}
+
+const esImpar = num => num%2 !== 0;
 
 // function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
@@ -210,9 +212,6 @@ const esPositivo = numero => {
   }
 }
 
-
-
-
 //function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
@@ -246,6 +245,7 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Tu código:
   return (alto * ancho );
 }
+
 
 
 function retornarPerimetro(lado){
